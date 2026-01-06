@@ -1,0 +1,14 @@
+org_name: nullstone
+name: gcp-function
+friendly_name: Cloud Function
+description: Creates a Cloud Function
+category: app
+subcategory: serverless
+provider_types:
+    - gcp
+platform: cloudfunctions
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
