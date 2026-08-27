@@ -4,6 +4,7 @@ friendly_name: Cloud Function
 description: Creates a Cloud Function
 category: app
 subcategory: serverless
+app_type: generic
 provider_types:
     - gcp
 platform: cloudfunctions
