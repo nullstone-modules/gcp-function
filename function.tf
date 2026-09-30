@@ -49,7 +49,7 @@ resource "google_cloudfunctions2_function" "function" {
     vpc_connector_egress_settings    = "ALL_TRAFFIC"
     vpc_connector                    = local.vpc_access_connector_id
 
-    environment_variables = local.all_env_vars
+    environment_variables = local.function_env_vars
 
     dynamic "secret_environment_variables" {
       for_each = local.all_secrets
